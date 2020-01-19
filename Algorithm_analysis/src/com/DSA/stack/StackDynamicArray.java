@@ -35,4 +35,12 @@ public class StackDynamicArray<T> {
 	public T peek() {
 		return (isEmpty())?null:(T)list[top];
 	}
+	
+	public void showAllStack() {
+		if (isEmpty() && (top<0 || top >= list.length))
+			return;
+		for(int i=0;i<=top;i++) {
+			System.out.println("top : " + i + " ---> value : " + list[i]);
+		}
+	}
 }
