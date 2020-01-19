@@ -56,17 +56,12 @@ public class DynamicArray <T>{
 	
 	private void resizeArray() {
 		if (!isArrayEmpty()) {
-//			System.out.println("we are resizing the array list , length of array before resizing is : " + arrayList.length);
 			arrayList = Arrays.copyOf(arrayList, size*2);
-//			System.out.println("after resizing the arraylist the length is : " + arrayList.length);
 		}
 	}
 	
 	private boolean isArrayEmpty() {
-			if (arrayList.length > size) {
-				return true;
-			}	
-			return false;
+			return (arrayList.length > size);
 	}
 
 

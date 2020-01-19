@@ -3,7 +3,6 @@ package com.DSA;
 public class SimpleArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//Simple One dimension array
 		int[] numbers = new int[5];
 		numbers[0] = 1 ;

@@ -3,7 +3,6 @@ package com.DSA;
 public class LinkedListDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		LinkedList<Integer> linkedLst = new LinkedList<Integer>();
 		linkedLst.delete();
 		linkedLst.addNode(15);
@@ -13,10 +12,8 @@ public class LinkedListDemo {
 		linkedLst.addNode(6);
 		linkedLst.addNode(7);
 		linkedLst.addNode(3);
-//		linkedLst.printLinkedList();
 		linkedLst.delete();
 		linkedLst.printLinkedList();
-		
 		LinkedList<String> linkString = new LinkedList<String>();
 		linkString.addNode("AAA");
 		linkString.addNode("BBB");
