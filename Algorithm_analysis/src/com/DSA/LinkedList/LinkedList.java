@@ -1,4 +1,4 @@
-package com.DSA;
+package com.DSA.LinkedList;
 
 public class LinkedList <T>{
 	//inned class
@@ -55,9 +55,6 @@ public class LinkedList <T>{
 		if (head.next == null) {
 				System.out.println("The linked list empty ! ");
 		} else {
-			if (head.data ==  null)//to delete the default (first head initialized )for first time then shift to the next one to delete first item in link list 
-				head = head.next;
-//			System.out.println("we are deleting ... the next head data is  " + this.head.next.data);
 			head = head.next;
 		} 
 	}
